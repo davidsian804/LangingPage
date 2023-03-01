@@ -63,191 +63,37 @@
         </div>
     </nav><!-- End of Page Navbar -->
 
-
-    <!-- page header -->
-    <header id="home" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
-
-            <h1 class="header-title">
-                <span class="up">Hola!</span>
-                <span class="down">Soy David Sian</span>
-            </h1>
-            <p class="header-subtitle">DESARROLLADOR FULL STACK</p>
-
-            <a class="btn btn-primary" target="_blank" href="https://github.com/davidsian804" role="button">Repositorio Git</a>
-
-        </div>
-    </header><!-- end of page header -->
-
-
-    <!-- about section -->
-    <section class="section pt-0" id="about">
-        <!-- container -->
-        <div class="container text-center">
+        
 
             <!--BODY-->
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
 
-            <!-- about wrapper -->
-            <div class="about">
-                <div class="about-img-holder">
-                    <img src="~/imgs/man.png" class="about-img"
-                         alt="Foto de perfil David Sian">
-                </div>
-                <div class="about-caption">
-                    <p class="section-subtitle">Quien Soy ?</p>
-                    <h2 class="section-title mb-3">Acerca de Mí</h2>
-                    <p>
-                        ¡Hola! Soy David Sian un programador Ingeniero de Software especializado en tecnologías .NET
-                        <br>
-                        <br>
-                        He trabajado en proyectos de alta complejidad utilizando
-                        tecnologias como C#, WindowsForms, ASP.NET Core MVC,
-                        Asi mismo he trabajado proyecto orientados al comercio electronico
-                        como plataformas de e-commerce haciendo uso de PHP, JavaScript.
-                        Durante mi formación a nivel diversificado me interese en el ámbito de la programación,
-                        siendo autodidacta adquirí conocimientos básicos que fue un impulso para interesarme
-                        en el desarrollo de software de tal forma que tomé como iniciativa aprender un lenguaje de programación que fue la base para formarme como desarrollado web.
-                        <br />
-                        <br />
-                        Mi afición por el desarrollo de software me viene desde hace más de 7 años y es la causa por la cual estudio Ingeniería en Sistemas.
-                        <br>
-                        Ofrezco soluciones web altamente personalizadas y escalables utilizando tecnologías .NET de última generación,
-                        y me comprometo a trabajar estrechamente con mis clientes para asegurar que sus necesidades se cumplan a cabalidad.
+    
 
-                    </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4">Descargar CV</button>
-                </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
+    @*<!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">
+                Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com">DevCRUD</a> Distribution <a href="https://themewagon.com">ThemeWagon</a>
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->*@
 
-
-    <!-- service section -->
-    <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">Lo que Hago ?</p>
-            <h6 class="section-title mb-6">Habilidades</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="~/imgs/pencil-case.svg"
-                                 alt="img modulo 1"
-                                 class="icon">
-                            <h6 class="title">Desarrollo web</h6>
-                            <p class="subtitle">
-                                Diseño y ejecucion de proyectos web con tecnologias net asi mismo php y javascript.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="~/imgs/responsive.svg"
-                                 alt="img modulo 2"
-                                 class="icon">
-                            <h6 class="title">WindowsForms</h6>
-                            <p class="subtitle">
-                                Creacion de aplicaciones administrativas para escritorio.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="~/imgs/analytics.svg"
-                                 alt="img modulo 2"
-                                 class="icon">
-                            <h6 class="title">Reportes</h6>
-                            <p class="subtitle">
-                                Manejo de reporteria en Power Bi y Sql Reporting Services.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="~/imgs/database.svg"
-                                 alt="img modulo 2"
-                                 class="icon">
-                            <h6 class="title">Bases de Datos</h6>
-                            <p class="subtitle">
-                                Amplio conocimiento en manejo de bases de datos relacionales en SqlServer y MySql.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-               
-            </div><!-- end of row -->
-        </div>
-    </section><!-- end of service section -->
-
-
-        <!-- portfolio section -->
-    <section class="section" id="portfolio">
-        <div class="container text-center">
-            <p class="section-subtitle">Mis Proyectos ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img src="~/imgs/TiendaLinea.png" class="portfolio-card-img"
-                            alt="img portafolio">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Tienda en Linea</h4>
-                                    <p class="font-weight-normal">Desarrollo Web en PHP, MVC, POO y MySQL - Tienda Virtual</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="~/imgs/folio-2.jpg" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Sistema de inventarios</h4>
-                                    <p class="font-weight-normal">Sistema C# + POS + CRUD + Web Services + ASP.NET + Capas + WindowsForms</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="~/imgs/folio-3.jpg" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Manejo de Presupuestos</h4>
-                                    <p class="font-weight-normal">Es un proyecto de manejo de presupuestos, 
-                                        donde nuestros usuarios van a poder ingresar sus movimientos financieros, para así saber en qué gastan su dinero.</p>
-                                        
-                            </span>
-                        </span>
-                    </a>
-                </div>
-            </div><!-- end of row -->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
-
-    @*<footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - LangingPage - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>*@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    @*<script src="~/js/custom.js" asp-append-version="true"></script>*@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

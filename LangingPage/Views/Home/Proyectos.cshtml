@@ -1,0 +1,31 @@
+﻿
+@model IEnumerable<ProyectosDTO>
+
+@{
+    ViewData["Title"] = "Proyectos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- portfolio section -->
+        <section class="section" id="portfolio">
+        <div class="container text-center">
+        <p class="section-subtitle">Aqui encontraras todos los proyectos en los que he trabajado</p>
+        <h6 class="section-title mb-6">Todos los Proyectos</h6>
+
+                <!-- row -->
+                <div class="row">
+                    <div class="row row-cols-1 row-cols-md-3 g4">
+
+                        <!--LISTADO PROYECTOS-->
+                        <partial name="_ListadoProyectos" model="Model"></partial>
+
+                    </div>                
+
+                </div><!-- end of row -->
+                       
+                <div class="form-group col-sm-12 mt-3">
+                    <a class="btn btn-primary rounded" asp-controller="Home" asp-action="Index" role="button">Regresar al Inicio</a>
+                </div>
+
+            </div><!-- end of container -->
+        </section> <!-- end of portfolio section -->

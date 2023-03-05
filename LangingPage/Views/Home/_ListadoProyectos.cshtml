@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ProyectosDTO>
+
+@if (Model is not null)
+{
+	<div class="row row-cols-1 row-cols-md-3 g4">
+
+		@foreach (var Proyectos in Model)
+		{
+			<div class="col-md-4">
+				<a href="@Proyectos.Link" target="_blank" rel="noopener noreferrer" class="portfolio-card">
+					<img src="@Proyectos.ImagenURL" class="portfolio-card-img" alt="img portafolio">
+					<span class="portfolio-card-overlay">
+						<span class="portfolio-card-caption">
+							<h4>@Proyectos.Titulo</h4>
+							<p class="font-weight-normal">@Proyectos.Descripcion</p>
+						</span>
+					</span>
+				</a>
+				<br />
+			</div>
+		}
+
+	</div>
+
+}
+
+

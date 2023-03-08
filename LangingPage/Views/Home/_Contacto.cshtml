@@ -4,23 +4,20 @@
         <p class="section-subtitle">Cómo puedes comunicarte?</p>
         <h6 class="section-title mb-5">Contacto</h6>
         <!-- contact form -->
-        <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+        <form asp-controller="Home" asp-action="Contacto" class="contact-form col-md-10 col-lg-8 m-auto">
             <div class="form-row">
                 <div class="form-group col-sm-6">
-                    <input type="text" size="50" class="form-control" placeholder="Nombre Completo" required>
+                    <input type="text" size="50" class="form-control" id="nombre" name="nombre" placeholder="Nombre Completo" required>
                 </div>
                 <div class="form-group col-sm-6">
-                    <input type="email" class="form-control" placeholder="Correo Electronico" requried>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Correo Electronico" requried>
                 </div>
                 <div class="form-group col-sm-12">
-                    <input type="text" class="form-control" placeholder="Motivo" required/>
-                </div>
-                <div class="form-group col-sm-12">
-                    <textarea name="comment" id="comment" rows="6" class="form-control"
+                    <textarea name="mensaje" id="mensaje" rows="6" class="form-control"
                               placeholder="Mensaje" required></textarea>
                 </div>
                 <div class="form-group col-sm-12 mt-3">
-                    <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                    <input type="submit" value="Enviar mensaje" class="btn btn-outline-primary rounded">
                 </div>
             </div>
         </form><!-- end of contact form -->
